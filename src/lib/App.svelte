@@ -67,6 +67,7 @@
 	}
 </script>
 
+<h1>Testing 123</h1>
 <button on:click={() => (loops = [...loops, { notes: Array(8).fill(false) }])}>Add Loop</button>
 <button on:click={playLoop}>{isPlaying ? 'Stop' : 'Play'}</button>
 <br />
