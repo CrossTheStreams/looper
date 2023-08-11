@@ -27,4 +27,4 @@ jobs:
         with:
           path: build/
       - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v1.2.4
+        uses: actions/deploy-pages@v2
