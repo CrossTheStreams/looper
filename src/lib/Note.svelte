@@ -5,7 +5,8 @@
 </script>
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
-<div class:active={note} on:keydown={() => dispatch('click')}>
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<div class:active={note} on:click={() => dispatch('click')}>
 	{#if note}
 		Playing
 	{:else}
